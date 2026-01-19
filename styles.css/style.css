@@ -112,3 +112,42 @@ body {
     background:transparent;
     gap: 10px;
 }
+
+.about-podcast{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 80px 20px;
+}
+.about-podcast h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.about-podcast p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    line-height: 1.6;
+}
+.about-card{
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+.about-card h3{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 12px;
+    color:#00ff88;
+}
+.about-card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 1.6;
+    text-align: center;
+}
