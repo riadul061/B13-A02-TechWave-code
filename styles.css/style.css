@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #2a0f45, #0b0617);
+  color: #fff;
+}
+.navbar{
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 16px;
+
+}
+.nav-links a {
+  display: inline;
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background: linear-gradient(45deg,rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+  color:#fff;
+  display: flex;
+}
