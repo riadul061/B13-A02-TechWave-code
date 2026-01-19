@@ -151,3 +151,130 @@ body {
     line-height: 1.6;
     text-align: center;
 }
+
+.why-techwabe{
+  padding: 120px 200px;
+
+}
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.container h2{
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+.grid{
+  max-width: 1600px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 16px;
+}
+.card-1{
+  grid-row: span 2;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px;
+}
+.card-2{
+  grid-column: span 2;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px;
+}
+.card-3{
+  grid-column: span 2;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px;
+}
+.card-4{
+  grid-column: span 2;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px;
+}
+.card-5{
+  grid-column: span 1;
+  background: rgba(53, 17, 101, 0.4);
+  border-radius: 40px;
+  padding: 40px;
+}
+.card-1 h3{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.card-1 p{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-2 h3{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+
+}
+.card-2 p{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-3 h3{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.card-3 p{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-4 h3{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.card-4 p{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card-5 h3{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+.card-5 p{
+  color: var(--#FFFFFF, rgba(255, 255, 255, 1));
+  font-style: Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+}
