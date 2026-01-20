@@ -339,3 +339,63 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+
+.Meet{
+    padding: 120px 200px;
+    background: rgba(35, 14, 61, 1);
+}
+.Meet-heading h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Meet-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    gap: 24px;
+    padding: 40px;
+    border-radius: 40px;
+    background: rgba(53, 17, 101, 0.4);
+}
+.Meet-image{
+    width: 200px;
+    height: 200px;
+}
+.Meet-content h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.Meet-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666f1;
+    line-height: 24px;
+    text-align: left;
+}
+.Meet-socials{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.Meet-socials a{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid rgba(83, 60, 114, 1);
+}
+.Meet-socials img{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
