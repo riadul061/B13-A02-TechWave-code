@@ -527,3 +527,10 @@ body {
     }
     
 }
+
+@media screen and (min-width: 992px) {
+    .bars{
+        display: none;
+    }
+    
+}
