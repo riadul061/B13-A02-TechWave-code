@@ -25,6 +25,9 @@ body {
   text-decoration: none;
   list-style: none;
 }
+.navber span{
+    display: none;
+}
 
 .btn {
   padding: 10px 20px;
@@ -435,4 +438,92 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+@media screen and (max-width:576px) {
+    .navber{
+        justify-content: space-between;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .navber span{
+    display: inline;
+
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .about-container{
+        padding: 40px 20px;
+    }
+    .about-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: auto;
+        gap: 16px;
+    }
+
+    .why-techwave{
+        padding: 40px 20px;
+    }
+    .container{
+        padding: 40px 20px;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    main {
+        /* width: 100%;
+        height: 100%; */
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .Featured{
+        padding: 40px 20px 20px 0;
+    }
+    .episodes-list{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .Meet{
+        padding: 60px 20px 20px 40px;
+    }
+    .Meet-section {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Meet-socials {
+        display: inline;
+    }
+
+    .footer{
+        padding: 40px 20px;
+        background-position:auto;
+    }
+    .footer-image {
+        width: 100%;
+        height: 32px ;
+    }
+    .footer-list{
+        padding: 24px 90px ;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+    
 }
