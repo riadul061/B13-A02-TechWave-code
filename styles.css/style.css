@@ -111,6 +111,12 @@ body {
 .primary{
     gap: 10px;
 }
+.primary:hover{
+    transform:rotateX(360deg);
+    transition: 3s;
+    display: block;
+    filter: drop-shadow(0 0 10px #fffdef);
+}
 .outline{
     border: 2px solid #00ff88 ;
     background:transparent;
